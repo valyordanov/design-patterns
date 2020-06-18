@@ -32,6 +32,7 @@ public class MainClass {
 		
 		Topic topic = new Topic();
 		
+		//The customer chooses one of the three counters
 		Random rand = new Random();
         int selectCounter = rand.nextInt(3) + 1;
 		
